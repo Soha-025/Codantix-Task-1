@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f0f4f8, #c25454);
+            color: #0e0e0e;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 40px;
+            color: #070a0d;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .text {
+            flex: 1 1 400px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .image {
+            flex: 1 1 250px;
+        }
+
+        .image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .image img:hover {
+            transform: scale(1.05);
+        }
+
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #0e0e0e;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-button:hover {
+            background-color: #c25454;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SOHA ADNAN</h1>
+
+    <div class="container">
+        <div class="text">
+            <p>
+                Hey I'm Soha Adnan — a curious mind on a mission to turn data into stories and code into creativity.
+                Currently diving into the world of Data Science as a Bachelor’s student, I blend logic with design to build sleek web pages, analyze patterns, and bring ideas to life.
+                With roots in computer science and pre-engineering, I’ve built a toolkit filled with Python, HTML, CSS, and just enough Photoshop magic to make things pop.
+                Whether I’m exploring algorithms or crafting user-friendly interfaces, I love pushing boundaries and learning something new every day.
+                This is just the beginning — let’s build the future, one line of code at a time.
+            </p>
+            <div class="button-container">
+               <a class="contact-button" href="https://www.linkedin.com/in/soha-adnan" target="_blank">Contact Me</a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="https://i.pinimg.com/736x/bb/65/bd/bb65bdeab14fcb2e332edcdfae569465.jpg" alt="Soha Adnan Profile Picture">
+        </div>
+    </div>
+
+</body>
+</html>
