@@ -33,12 +33,6 @@ This is my **first internship task** for **Codentix**, where I created a persona
 
 ---
 
-### 📸 Live Preview
-
-🔗 [Click here to view live webpage](https://soha-025.github.io/Codantix-Task-1/)
-
----
-
 ### 👩‍💻 Author
 
 **Soha Adnan**  
