@@ -15,6 +15,9 @@ This is my **first internship task** for **Codentix**, where I created a persona
 
 ---
 
+Live Demo
+(https://soha-025.github.io/Codantix-Task-1/)
+
 ### 🔧 Technologies Used
 
 - HTML5
